@@ -61,6 +61,7 @@ dependencies {
     androidTestImplementation(libs.compose.ui.test.junit4)
     androidTestImplementation (libs.androidx.test.ext.junit)
     implementation(libs.androidx.compose.material)
+    implementation(libs.androidx.navigation.compose)
 
     // Arch Components
     implementation(libs.androidx.hilt.navigation.compose)
