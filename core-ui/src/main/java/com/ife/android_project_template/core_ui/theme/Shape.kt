@@ -1,4 +1,4 @@
-package com.ife.android_project_template.ui.theme
+package com.ife.android_project_template.core_ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

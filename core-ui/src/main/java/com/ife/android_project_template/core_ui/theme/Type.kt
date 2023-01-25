@@ -1,4 +1,4 @@
-package com.ife.android_project_template.ui.theme
+package com.ife.android_project_template.core_ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

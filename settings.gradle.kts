@@ -19,3 +19,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "AndroidProjectTemplate"
 include(":app")
+include(":core-resource")
+include(":core-ui")
