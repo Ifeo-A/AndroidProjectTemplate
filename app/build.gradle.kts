@@ -60,13 +60,20 @@ dependencies {
     implementation(libs.compose.ui.tooling.preview)
     androidTestImplementation(libs.compose.ui.test.junit4)
     androidTestImplementation (libs.androidx.test.ext.junit)
-    implementation(libs.androidx.compose.material)
+
+    // Compose
+    implementation(libs.compose.ui)
     implementation(libs.androidx.navigation.compose)
+    implementation(libs.compose.ui.tooling.preview)
+    implementation(libs.androidx.compose.material3)
 
     // Arch Components
     implementation(libs.androidx.hilt.navigation.compose)
     androidTestImplementation(libs.androidx.test.runner)
     androidTestImplementation(libs.androidx.hilt.navigation.compose)
+
+    // Material design icons
+    implementation(libs.androidx.compose.material.icons.extended)
 
     // Coroutines
     implementation(libs.kotlinx.coroutines.android)
