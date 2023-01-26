@@ -1,3 +1,6 @@
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+
 buildscript {
     ext {
         kotlinVersion = "1.7.20"
@@ -10,12 +13,9 @@ buildscript {
     }
 }
 
-apply plugin: 'java-library'
-apply plugin: 'kotlin'
-
 dependencies {
     implementation(fileTree(dir: 'libs', include: ['*.jar']))
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.20")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion")
 }
 
 java {
