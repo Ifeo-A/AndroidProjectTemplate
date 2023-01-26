@@ -21,3 +21,6 @@ rootProject.name = "AndroidProjectTemplate"
 include(":app")
 include(":core-resource")
 include(":core-ui")
+include(":feature-example-main-screen")
+include(":feature-example-secondary-screen")
+include(":core-utils")

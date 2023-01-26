@@ -59,7 +59,10 @@ android {
 dependencies {
 
     implementation(project(":core-ui"))
+    implementation(project(":core-utils"))
     implementation(project(":core-resource"))
+    implementation(project(":feature-example-main-screen"))
+    implementation(project(":feature-example-secondary-screen"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime)
@@ -68,7 +71,7 @@ dependencies {
     implementation(libs.compose.ui.tooling.preview)
     androidTestImplementation(libs.compose.ui.test.junit4)
     androidTestImplementation (libs.androidx.test.ext.junit)
-    implementation(libs.androidx.compose.material)
+    implementation(libs.androidx.compose.material3)
 
     // Arch Components
     implementation(libs.androidx.hilt.navigation.compose)

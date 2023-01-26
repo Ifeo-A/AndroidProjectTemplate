@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "com.ife.android_project_template.core_ui"
+    namespace = "com.ife.android_project_template.feature_example_main_screen"
     compileSdk = parseInt(myProjectConfig.versions.compileSdk.get())
 
     defaultConfig {
@@ -48,7 +48,7 @@ android {
 
 dependencies {
 
-    implementation(project(":core-resource"))
+    implementation(project(":core-utils"))
 
     // Core android dependencies
     implementation(libs.androidx.core.ktx)
@@ -67,5 +67,4 @@ dependencies {
 
     // Tooling
     debugImplementation(libs.compose.ui.tooling)
-
 }
