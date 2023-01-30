@@ -22,19 +22,30 @@ Templates are compatible with the latest **stable** version of Android Studio.
 
 Run the following commands to use.
 
-1. First activate venv
+1. Clone the desired repository
+For single_module_template use 
+```
+git clone https://github.com/Ifeo-A/AndroidProjectTemplate.git --branch single_module_template
+```
+
+For multi_module_template use
+```
+git clone https://github.com/Ifeo-A/AndroidProjectTemplate.git --branch multi_module_template
+```
+
+3. Then activate venv
 
 ```
  source project_customizer/venv/bin/activate  
 ```
 
-2. Then run the command to customize your project files
+3Then run the command to customize your project files
 
 ```
 python customizer.py -packageName com.your.project [-appName YourAppName]
 ```
 
-3. Finally deactivate venv
+5Finally deactivate venv
 
 ```
 deactivate
@@ -71,6 +82,7 @@ You're good to go now.
 
 * Coroutines
 * Compose Ui
+* Material Icons Extended
 * Timber
 * Hilt
 * Retrofit
