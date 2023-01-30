@@ -10,7 +10,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.rememberNavController
-import com.ife.android_project_template.ui.MainNavigation
+import com.ife.android_project_template.ui.navigation.MainNavigation
 import com.ife.android_project_template.ui.theme.AndroidProjectTemplateTheme
 
 class MainActivity : ComponentActivity() {

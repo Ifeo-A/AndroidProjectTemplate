@@ -1,5 +1,5 @@
 
-package com.ife.android_project_template.ui
+package com.ife.android_project_template.ui.navigation
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.ExperimentalMaterial3Api
