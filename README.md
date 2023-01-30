@@ -18,7 +18,7 @@ core-ui
 
 Run the following commands to use.
 
-1. Clone this single_module_template branch <br>
+1. Clone this multi_module_template branch <br>
 
 ```
 git clone https://github.com/Ifeo-A/AndroidProjectTemplate.git --branch multi_module_template
