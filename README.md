@@ -22,7 +22,8 @@ Templates are compatible with the latest **stable** version of Android Studio.
 
 Run the following commands to use.
 
-1. Clone the desired repository
+1. Clone the desired repository <br>
+
 For single_module_template use 
 ```
 git clone https://github.com/Ifeo-A/AndroidProjectTemplate.git --branch single_module_template
