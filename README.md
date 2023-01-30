@@ -34,19 +34,19 @@ For multi_module_template use
 git clone https://github.com/Ifeo-A/AndroidProjectTemplate.git --branch multi_module_template
 ```
 
-3. Then activate venv
+2. Then activate venv
 
 ```
  source project_customizer/venv/bin/activate  
 ```
 
-3Then run the command to customize your project files
+3. Then run the command to customize your project files
 
 ```
 python customizer.py -packageName com.your.project [-appName YourAppName]
 ```
 
-5Finally deactivate venv
+4. Finally deactivate venv
 
 ```
 deactivate
