@@ -12,6 +12,9 @@ Templates are compatible with the latest **stable** version of Android Studio.
 | [`single_module_template`](https://github.com/Ifeo-A/AndroidProjectTemplate)  | Compose, single module  |
 | [`multimodule_template`](https://github.com/Ifeo-A/AndroidProjectTemplate/tree/multi_module_template)  | single module template + multimodule template  |
 
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 ## Usage/Examples
 
@@ -71,7 +74,4 @@ You're good to go now.
 * Mockk
 * Google Truth
 
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
