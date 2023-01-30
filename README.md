@@ -9,10 +9,10 @@ A virtual environment is included so you do not need to have python installed on
 
 Templates are compatible with the latest **stable** version of Android Studio.
 
-| Template                                                                                              | Description                                   |
-|-------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| [`single_module_template`](https://github.com/Ifeo-A/AndroidProjectTemplate)                          | Compose, single module                        |
-| [`multimodule_template`](https://github.com/Ifeo-A/AndroidProjectTemplate/tree/multi_module_template) | single module template + multimodule template |
+| Template                                                                                                 | Description                                   |
+|----------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| [`single_module_template`](https://github.com/Ifeo-A/AndroidProjectTemplate/tree/single_module_template) | Compose, single module                        |
+| [`multimodule_template`](https://github.com/Ifeo-A/AndroidProjectTemplate/tree/multi_module_template)    | single module template + multimodule template |
 
 ## Screenshots
 
