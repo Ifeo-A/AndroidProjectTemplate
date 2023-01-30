@@ -1,4 +1,4 @@
-# Android single module template
+# Android multi-module template
 
 ## Module descriptions
 
