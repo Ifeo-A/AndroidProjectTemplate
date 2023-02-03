@@ -1,4 +1,4 @@
-package com.android_project_template.core_utils.navigation
+package com.ife.android_project_template.core_utils.navigation
 
 object NavigationHelper {
     object Destinations {

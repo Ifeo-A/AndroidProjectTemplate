@@ -10,7 +10,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.Dp
 import androidx.navigation.NavController
-import com.android_project_template.core_utils.navigation.NavigationHelper.Destinations.SECONDARY_SCREEN
+import com.ife.android_project_template.core_utils.navigation.NavigationHelper.Destinations.SECONDARY_SCREEN
 
 @Composable
 fun MainScreen(

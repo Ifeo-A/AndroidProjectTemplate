@@ -11,8 +11,8 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.android_project_template.core_utils.navigation.NavigationHelper.Destinations.MAIN_SCREEN
-import com.android_project_template.core_utils.navigation.NavigationHelper.Destinations.SECONDARY_SCREEN
+import com.ife.android_project_template.core_utils.navigation.NavigationHelper.Destinations.MAIN_SCREEN
+import com.ife.android_project_template.core_utils.navigation.NavigationHelper.Destinations.SECONDARY_SCREEN
 import com.ife.android_project_template.core_resource.R
 import com.ife.android_project_template.core_ui.components.topBar.TopBar
 import com.ife.android_project_template.feature_example_secondary_screen.SecondaryScreen
