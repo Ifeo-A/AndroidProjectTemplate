@@ -14,24 +14,31 @@ Run the following commands to use.
 git clone https://github.com/Ifeo-A/AndroidProjectTemplate.git --branch single_module_template
 ```
 
-2. Then activate venv
+2. Change directory into `AndroidProjectTemplate` and run the customizer script <br>
+
+Where <br>
+**[YOUR_PLATFORM_NAME]**: can be one of the following. **`macIntelDist`** *(Intel Mac)*, or **`macM1Dist`** *(M1 Mac)* <br>
+
+**[DOT_NOTATION_PACKAGE_NAME]**: is your package name e.g `com.my.androidapp` using dot notation <br>
+
+**[APPLICATION_NAME]**: is your **OPTIONAL** application name e.g `MyMoistApp`
 
 ```
- source project_customizer/venv/bin/activate  
+project_customizer/[YOUR_PLATFORM_NAME]/main/main -p [DOT_NOTATION_PACKAGE_NAME] -a [APPLICATION_NAME]
+```
+**or**
+```
+project_customizer/[YOUR_PLATFORM_NAME]/main/main --packageName [DOT_NOTATION_PACKAGE_NAME] -appName [APPLICATION_NAME]
 ```
 
-3. Then run the command to customize your project files
+<br>
 
+## Example command <br>
 ```
-python customizer.py -packageName com.your.project [-appName YourAppName]
-```
-
-4. Finally deactivate venv
-
-```
-deactivate
+project_customizer/macIntelDist/main/main --packageName com.two.three -appName MoistApp
 ```
 
+<br>
 You're good to go now.
 
 ## Features
