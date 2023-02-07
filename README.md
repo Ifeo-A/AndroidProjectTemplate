@@ -22,36 +22,37 @@ Templates are compatible with the latest **stable** version of Android Studio.
 
 Run the following commands to use.
 
-1. Clone the desired repository <br>
+1. Clone this multi_module_template branch <br>
 
-For single_module_template use 
 ```
 git clone https://github.com/Ifeo-A/AndroidProjectTemplate.git --branch single_module_template
 ```
 
-For multi_module_template use
-```
-git clone https://github.com/Ifeo-A/AndroidProjectTemplate.git --branch multi_module_template
-```
+2. Change directory into `AndroidProjectTemplate` and run the customizer script <br>
 
-2. Then activate venv
+Where <br>
+**[YOUR_PLATFORM_NAME]**: can be one of the following. **`macIntelDist`** *(Intel Mac)*, or **`macM1Dist`** *(M1 Mac)* <br>
 
-```
- source project_customizer/venv/bin/activate  
-```
+**[DOT_NOTATION_PACKAGE_NAME]**: is your package name e.g `com.my.androidapp` using dot notation <br>
 
-3. Then run the command to customize your project files
+**[APPLICATION_NAME]**: is your **OPTIONAL** application name e.g `MyMoistApp`
 
 ```
-python customizer.py -packageName com.your.project [-appName YourAppName]
+project_customizer/[YOUR_PLATFORM_NAME]/main/main -p [DOT_NOTATION_PACKAGE_NAME] -a [APPLICATION_NAME]
+```
+**or**
+```
+project_customizer/[YOUR_PLATFORM_NAME]/main/main --packageName [DOT_NOTATION_PACKAGE_NAME] -appName [APPLICATION_NAME]
 ```
 
-4. Finally deactivate venv
+<br>
 
+## Example command <br>
 ```
-deactivate
+project_customizer/macIntelDist/main/main --packageName com.two.three -appName MoistApp
 ```
 
+<br>
 You're good to go now.
 
 ## Features
