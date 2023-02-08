@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "com.ife.android_project_template.feature_example_secondary_screen"
+    namespace = "com.ife.android_project_template.preview_resource"
     compileSdk = parseInt(myProjectConfig.versions.compileSdk.get())
 
     defaultConfig {
@@ -48,13 +48,10 @@ android {
 
 dependencies {
 
-    implementation(project(":core-ui"))
-    implementation(project(":preview-resource"))
-
-
     // Core android dependencies
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.androidx.activity.compose)
 
     // Compose
     implementation(libs.compose.ui)
@@ -63,9 +60,6 @@ dependencies {
 
     // Material design icons
     implementation(libs.androidx.compose.material.icons.extended)
-
-    // Arch Components
-    implementation(libs.androidx.navigation.compose)
 
     // Tooling
     debugImplementation(libs.compose.ui.tooling)
