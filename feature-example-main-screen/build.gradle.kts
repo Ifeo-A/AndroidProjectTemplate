@@ -48,6 +48,7 @@ android {
 
 dependencies {
 
+    implementation(project(":core-ui"))
     implementation(project(":core-utils"))
 
     // Core android dependencies
