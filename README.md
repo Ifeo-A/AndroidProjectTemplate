@@ -38,17 +38,15 @@ project_customizer/[YOUR_PLATFORM_NAME]/main/main -p [DOT_NOTATION_PACKAGE_NAME]
 ```
 **or**
 ```
-project_customizer/[YOUR_PLATFORM_NAME]/main/main --packageName [DOT_NOTATION_PACKAGE_NAME] -appName [APPLICATION_NAME]
+project_customizer/[YOUR_PLATFORM_NAME]/main/main --packageName [DOT_NOTATION_PACKAGE_NAME] --appName [APPLICATION_NAME]
 ```
 
 <br>
 
 ## Example command <br>
 ```
-project_customizer/macIntelDist/main/main --packageName com.two.three -appName MoistApp
+project_customizer/macIntelDist/main/main --packageName com.two.three --appName MoistApp
 ```
 
 <br>
 You're good to go now.
-
-## Features
