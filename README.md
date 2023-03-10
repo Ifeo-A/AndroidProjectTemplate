@@ -5,7 +5,6 @@ project. <br>
 All you need to do is clone one of the template repos listed below with your desired structure e.g
 single or multi-module app and customize the project name and files using the customizer.py python
 script. <br>
-A virtual environment is included so you do not need to have python installed on your computer.
 
 Templates are compatible with the latest **stable** version of Android Studio.
 
