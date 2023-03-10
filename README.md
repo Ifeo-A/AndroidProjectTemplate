@@ -3,7 +3,7 @@
 A repo with base template files to help you quickly get up and running with your android
 project. <br>
 All you need to do is clone one of the template repos listed below with your desired structure e.g
-single or multi-module app and customize the project name and files using the customizer.py python
+single or multi-module app and customize the project name and files using the customizer script as described below.
 script. <br>
 
 Templates are compatible with the latest **stable** version of Android Studio.
